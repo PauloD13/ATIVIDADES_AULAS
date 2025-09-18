@@ -1,8 +1,10 @@
-
+#importando as funções
 from funcoes import menu, create, read, update, delete, saudacao
 
+#saudação, por fins de estetica
 saudacao()
 
+#laço de repetição para o menu e opções
 while True:
     match menu():
         case 1:
@@ -14,9 +16,9 @@ while True:
         case 4:
             delete()
         case 5:
-            input('Saindo do sistema...')
+            input('Saindo do sistema... ')
             break
         case _:
-            print('Selecione uma opção')
+            input('Selecione uma opção ')
 
 SystemExit(print(f'Até a proxima.'))
