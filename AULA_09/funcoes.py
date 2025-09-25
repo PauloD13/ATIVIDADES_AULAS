@@ -98,9 +98,10 @@ def update():
     livro['nome'] = input('Informe o nome do livro: ').strip().title()
     livro['tema'] = input('Informe o gênero do livro: ').strip()
     livro['autor'] = input('Informe o autor do livro: ').strip().title()
+
+    livros.append(livro)
             
     #salvando os dados e finalizando o caso
-    livros.append(livro)
     opcao = input('Deseja registrar numa tabela existente? s/n\nLembrando que esta ação sobrescreverá dados já existentes\n').lower().strip()
     if opcao == "s":
         tabela = str(input('Em qual tabela desejas cadastrar? ').strip().lower())

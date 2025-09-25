@@ -1,22 +1,14 @@
 [
+    [
+        {
+            "nome": "Alquimista",
+            "genero": "ficcao",
+            "autor": "paulo coelho"
+        }
+    ],
     {
-        "nome": "O Alquimista",
-        "tema": "Ficção",
-        "autor": "Paulo Coelho"
-    },
-    {
-        "nome": "Memorias Postumas De Brás Cubas",
-        "tema": "Ficção",
-        "autor": "Machado De Assis"
-    },
-    {
-        "nome": "Pequeno Principe",
-        "tema": "Infantil",
-        "autor": "None"
-    },
-    {
-        "nome": "Mamamhaha Tsurekano",
-        "tema": "Romance",
-        "autor": "Sei Lá"
+        "nome": "M",
+        "tema": "M]",
+        "autor": "M"
     }
 ]
